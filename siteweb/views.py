@@ -4,6 +4,6 @@ from django.shortcuts import render
 
 def index(request):
     context = {}
-    return render(request, 'siteweb/index.html', context)
+    return render(request, 'siteweb/base.html', context)
 
 # Create your views here.
